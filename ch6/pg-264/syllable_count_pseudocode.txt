@@ -1,0 +1,23 @@
+Pseudocode to determine the number of syllables in the text:
+
+1. First, break down the text into list of words through split function
+
+2. Set count to zero
+
+3. Define a function total_syllables with a single parameter (words) that return the syllable count for the list of words
+
+4. In the function body insert a FOR loop to iterate over each item in the words list
+
+5. Insert the IF keyword and if any word has less than equals to 3 words (check this from len (words [i]) <= ), assume that it has only 1 syllable and set count=count+1
+
+6. ELIF len (words[i])<=5: it has 2 syllables and count= count+2
+
+7. ELIF len (words[i])<=8: it has 3 syllables and count= count+3
+
+8. ELIF len (words[i])<=11: it has 4 syllables and count= count+4
+
+9. ELSE: count=count+5
+
+10. RETURN the count to the function total_syllable
+
+11. Print the total number of syllables.

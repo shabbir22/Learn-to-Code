@@ -1,0 +1,24 @@
+NID Image to NID Data Extraction:
+
+Pseudocode:
+1. Keep all the JPEG images of NID (back-side) in a specific folder in your computer
+
+2. Create an empty list of string, say encoded_string to keep all the encoded string values (base64) of those NID images
+
+3. For time efficieny, iterate over (using a 'for' loop) all the image files in that folder:
+
+	4. Get the encoded string values (base64) from images one by one
+	5. In the same time, insert the encoded string values one by one (using the 'extend' function) in the empty list of string values (encoded_string) created earlier
+
+6. Create an API (say, in Postman) where we can make "call" and get NID information from the encoded string values of NID images
+   [Creating a post request at Postman]
+
+7. Fetch the list (encoded_string) of encoded string values of NID images into the request's body 
+  #For time efficiency, we are fetching all the encoded string values instead of a single one
+
+8. Send the request to the specific server
+   #We will be needing VPN Connection
+
+9. Server will extract data for each and every encoded string value inserted through a list in step 7 
+
+10. Save this data into another text file for later use

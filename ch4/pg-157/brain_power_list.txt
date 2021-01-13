@@ -1,0 +1,6 @@
+What is the difference between using append and using extend on
+lists?
+
+Reply:
+append is used to add a single item in an existing list. While
+extend is used to add an list to anonther existing list.

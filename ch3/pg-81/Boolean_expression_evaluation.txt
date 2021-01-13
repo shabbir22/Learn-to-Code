@@ -1,0 +1,20 @@
+Get out your pencil and put some Boolean expressions through their paces. For each expression below,
+compute its value and write in your answer. Be sure to check your answers at the end of the chapter.
+Remember, Boolean expressions always evaluate to either True or False.
+
+your_level>5
+
+When your_level is 2, what does this evaluate to? False
+When your_level is 5, what does this evaluate to? False
+When your_level is 7, what does this evaluate to? True
+
+color=="orange"
+
+Is this expression True or False when color has the value
+"pink"?_ False
+Or has the value "orange"?_ True
+
+color!="orange"
+
+Is this expression True or False when color has the value
+"pink"?_ True

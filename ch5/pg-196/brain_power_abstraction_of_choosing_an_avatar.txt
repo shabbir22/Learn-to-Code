@@ -1,0 +1,17 @@
+#Brain Power: Abstraction of choosing an avatar code
+
+def attributes(hair,hair_length,eyes,gender,has_glasses,has_beard):
+    if hair == '':
+        hair = 'brown'
+    if hair_length == '':
+        hair_length = 'short'
+    if eyes == '':
+        eyes = 'blue'
+    if gender == '':
+        gender = 'female'
+    if has_glasses == '':
+        has_glasses = 'no'
+    if has_beard == '':
+        has_beard = 'no'
+
+attributes('black','','brown','male','','')

@@ -1,0 +1,6 @@
+Brain Power: Page 41
+
+The variable dog_name should now hold the value 'Rover', or whatever dog name you entered. How can you show it does?
+
+Reply: By using the 'print' command
+print(dog_name)

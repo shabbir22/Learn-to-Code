@@ -1,0 +1,6 @@
+While you were discussing upper- and lowercase strings, we went ahead and wrote the code to reprompt the user, only our approach was flawed. Can you take a look
+and see what you think the flaw might be?
+
+Reply:
+We will get the re-prompt only once if we use 'if' condition in the code. Then we are able to enter invalid response and we will have an answer which should not be the case. We should mention for how long.
+That's why we should use 'while' loop.

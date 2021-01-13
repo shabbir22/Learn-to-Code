@@ -1,0 +1,6 @@
+Brain Power:
+
+What if you left the quotes off of Codie's name? Whar would this evaluate to?
+
+Reply:
+Since we have not defined 'Codie' first, it will show 'name error'. It won't evaluate anything.

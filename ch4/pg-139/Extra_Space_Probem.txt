@@ -1,0 +1,22 @@
+#Because it's concatenating strings to an integer (i). 
+#So, it's showing error. 
+
+scores=[60,50,60,58,54,54,58,50,52,54,48,69,34,55,
+        51,52,44,51,69,64,66,55,52,61,46,31,57,52,
+        44,18,41,53,55,61,51,44]
+scores
+length=len(scores)
+
+#i=0
+#while (i<length):
+    #print('Bubble solution #',i,'score:',scores[i]) #But this will provide an extra space due between hash(#) and the integer i as we have put an comma between those
+    #i=i+1    #this will give increment of 1 each time the expression is True
+#We cannot come to an solution of removing the space by simply concatenating, as strings can not be concatenated to integers
+    #we need to convert the integer 'i' to an string by calling the 'str' function
+#After working on that code, above 6 line codes were inserted as comment so that the program doesn't give the output with extra space.
+
+i=0
+while (i<length):
+    print('Bubble solution #'+str(i),'score:',scores[i]) 
+    i=i+1
+#We can solve the problem by converting the integer i as string by str(i) function

@@ -1,0 +1,17 @@
+###Brain Power: Bubble Score Report
+
+##Listing the scores and determining their corresponding scores
+
+#First, create another list of bubble score ('scores') by keeping the scores of the solutions in an ordered way.
+       As for example, first item of the 'scores' list will be the score of the first bubble solution and so on...
+#We can then easily have each solution's corresponding score by calling its index number. 
+#But since there is so many items in the list, we need some sort of iteration, like applying 'while' loop, or better use for loop after creating a sequence of equal lengths of the list
+
+##Printing the total number of bubble scores
+#We can have that by calling the length ('len') function
+
+##Printing the Highest Score and each solution that have that score
+#First, sort out the 'scores' list in ascending order.
+#If there is only one number that is highest, then the last item will be the highest number; call the corresponding solution which has a index at -1
+#But, if the highest number is tied, that is, there is more than one solution that has the highest score, then look at the sorted list and find how many of those are in there. Those will be the first items.
+#Create a new list

@@ -1,0 +1,9 @@
+Get into the Python Shell, import the random module, 
+and then generate some random integers with random.randint(0,2).
+Keep calling randint to seewhat you get.
+
+Exercise:
+import random
+random.randint(0,2)  #showing 1
+random.randint(0,2)  #showing 1
+random.randint(0,2)  #showing 2  #Randomly choose an integer between 0 and 2.

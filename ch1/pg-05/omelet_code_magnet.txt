@@ -1,0 +1,26 @@
+Code Magnets:
+Diner’s algorithm for making an three-egg omelet:
+
+-Crack three eggs into bowl
+
+-While eggs are not fully mixed:
+
+-Whip eggs
+
+-Heat Saute Pan
+
+-Transfer eggs to pan
+
+-While eggs are not full cooked:
+
+-Stir eggs
+
+-If the customer ordered cheese:
+
+ -Add cheese on top
+
+-Remove pan from heat
+
+-Transfer eggs to plate
+
+-Serve

@@ -1,0 +1,9 @@
+Assume random_choice is already set to 0, 1, or 2 and write some pseudocode to set the variable
+computer_choice to "rock", "paper", or "scissors" based on random_choice’s value.
+
+Pseudocode:
+1. Use the 'if' condition to set the values ("rock", "paper", or "scissors") of the variable computer_choice to 0,1 and 2.
+
+2. if random_choice is equals to 0, set computer_choice equals to "rock".
+3. if random_choice is equals to 1, set computer_choice equals to "paper".
+4. if random_choice is equals to 2, set computer_choice equals to "scissors" or this step can be done using and 'else' function.

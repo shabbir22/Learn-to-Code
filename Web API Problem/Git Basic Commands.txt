@@ -1,0 +1,29 @@
+Learn_to_Code path:
+https://github.com/shabbir22/Learn_to_Code.git
+
+create a new repository on the command line:
+
+echo "# Learn_to_Code" >> README.md
+git init
+git add README.md
+git add *
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/shabbir22/Learn_to_Code.git
+git push -u origin main
+
+Push an existing repository from the command line:
+
+git remote add origin https://github.com/shabbir22/Learn_to_Code.git
+git branch -M main
+git push -u origin main
+
+#adding new files in the existing local repository and push it to the remote repository
+git add *
+git status
+git commit -m ""
+
+#if any changes made in the remote repository
+git pull
+
+git push -u origin main

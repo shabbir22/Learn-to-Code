@@ -1,0 +1,11 @@
+Your turn again. Based on our plan on the previous page, finish the code fragment below. Your code
+should determine if there is a tie, and if so, set the winner variable to 'Tie'. After you’ve completed
+this exercise, we’ll get this code into the rock.py file in the next step.
+
+if _______==_________:
+	winner=_____
+
+Solution:
+
+if computer_choice==user_choice:
+	winner='Tie'

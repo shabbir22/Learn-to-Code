@@ -1,0 +1,6 @@
+Brain Power:
+Think about the number 12121212121212. Is there anything you can think of that explains how Python got this number?
+
+Reply:
+Here, 12 is just repeated 7 times. That's caused because Python read 12 as a string '12'. So, when we multiplied with an integer (7), the string just repeated that many times.
+We needed to convert it into integer using the 'int' function Python.

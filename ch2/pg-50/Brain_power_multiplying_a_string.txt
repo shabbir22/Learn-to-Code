@@ -1,0 +1,9 @@
+Brain Power:
+What does this expression evaluate to Or do you think this is an error in Python because we’re multiplying a number times a string.
+ 
+     3 * 'ice cream'
+
+Reply: 
+This will just repeat the string 3 times. Logically this is an error in Python. This will show the following output:
+
+'ice creamice creamice cream'

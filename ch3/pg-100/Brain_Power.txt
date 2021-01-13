@@ -1,0 +1,6 @@
+Thinking about the Rock, Paper, Scissors game again, what happens if you don’t enter rock, paper, or
+scissors correctly? Say you enter “rack” instead of “rock”: How does your program behave? Do you think
+that behavior is correct?
+
+Reply:
+In that case, The User will always win as the function won't find a match with the computer_choice and will return user as the winner all the time.

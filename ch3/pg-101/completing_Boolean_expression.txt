@@ -1,0 +1,2 @@
+
+user_choice !='rock' and user_choice !='paper' and user_choice !='scissors'

@@ -1,0 +1,19 @@
+Take out your pencil and put some more Boolean expressions through their paces.
+For each expression below, compute its value and write in your answer.
+
+age>5 and age<10
+
+When age is 6, what does this evaluate to?_ True
+When age is 11, what does this evaluate to?_ False
+When age is 5, what does this evaluate to?_ False
+
+age>5 or age==3
+
+When age is 6, what does this evaluate to?_ True
+When age is 2, what does this evaluate to?_ False
+When age is 3, what does this evaluate to?_ True
+
+not (age>5)
+
+When age is 6, what does this evaluate to?_ False
+When age is 2, what does this evaluate to?_ True

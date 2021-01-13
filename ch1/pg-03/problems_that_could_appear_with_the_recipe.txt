@@ -1,0 +1,14 @@
+One thing to understand right up front is that computers do exactly what. You tell them—nothing more, nothing less. Look at our recipe for fishing. If you were the robot and you followed these instructions
+precisely, what problems might you encounter? Do you think we would really be successful using this recipe?
+
+A. If there are no fish, you’re going to be fishing for a very long time (like, forever).
+B. If the worm falls off the hook, you’ll never know about it or replace it.
+C. What happens if we run out of worms?
+D. Did we specify what to do with a fish when we pulled it in?
+E. What happened to the fishing rod?
+
+More from me:
+F. What if the fish caught on the hook is too heavy and the Robot cannot pull it off?
+G. What if the hook is teared down by fish?
+H. Suppose the bobber is gone underwater, but how do we know the fish is hooked?
+I. What if the fishing rod breaks down?

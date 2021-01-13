@@ -1,0 +1,14 @@
+As Judy suggested in the cubicle conversation, if there are multiple high score solutions with the
+same cost, this code favors the first solution it finds. But why is that What aspect of the code
+makes that happen What if you wanted to favor the last solution you found instead; how would
+you do that?
+
+Initial Reply:
+That's because 'for' loop works on the default ascening order sequence, i.e. from first to last of the sequance create by the range. 
+But if we want to favor the last solution you found instead, need to create the sequence from last to first.
+So, now it will check from the last.
+
+Answer:
+Because this code is always comparing the current low cost by using less than, so once a low cost is
+established, it takes an even lower cost (not an equal cost) to pick a new winner. You could favor the last solution it
+sees by changing the less than comparison to a less than or equal to, <= comparison.
